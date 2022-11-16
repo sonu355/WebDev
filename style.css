@@ -1,0 +1,22 @@
+.blue {
+    color: #00FF00
+}
+
+h1  {
+    color: aqua;
+}
+style {
+    color: brown;
+}
+title{
+    color: rgba(255, 0, 255, 0.5);
+    color: hsla(0, 100, 50, 1);
+}
+.box {
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin: 50px;
+    border: 10px  black ;
+    background-color: coral;
+}
