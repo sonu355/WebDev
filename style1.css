@@ -277,7 +277,7 @@ html, body{
     font-weight: bold;
     font-size: 1.5em;
     color: black;
-    margin-right: 20px;
+    margin: 10px;
 }
 .cart-total-price{
     color: #333;
