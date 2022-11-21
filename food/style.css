@@ -1,0 +1,71 @@
+body{
+    font-family: 'Oswald', sans-serif;
+}
+.image-responsive{
+    max-width: 100%;
+}
+.hero_image{
+    background: url(/food/foodd1.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.hero_wrapper{
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.hero_wrapper h1{
+    font-size: 3.4rem;
+    text-align: center;
+}
+.hero_wrapper span{
+    margin-left: 5rem;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+.form_code{
+    text-align: center;
+}
+.form_code .post_code{
+display: block;
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+border-radius: 2rem;
+padding: 0.6rem;
+border: none;
+outline: none;
+}  
+.form_code button{
+    width: 40%; 
+    display: inline-block;
+    text-align: center;
+    background-color: #00bab1;
+    color: white;
+    padding: .6rem;
+    margin: 1rem auto 0rem;
+    border: none;
+    border-radius: 0.3rem;
+}  
+.product{
+    width: 90%;
+    margin-top: 0.3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.product_item_list{
+    float: left;
+    width: 32%;
+    margin-left: 0.5rem;
+}
+.product_item_list:first-of-type{
+    margin-left: 0;
+}
+@media screen and (max-width: 700px) {
+    .product_item_list{
+        width: 100%;
+    }
+}
